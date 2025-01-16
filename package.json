@@ -7,7 +7,10 @@
 		"start": "ts-node src/app.ts",
 		"dev": "ts-node src/app.ts",
 		"biome:check": "biome check --write .",
-		"biome:format": "biome format --write . "
+		"biome:format": "biome format --write .",
+		"migrate": "drizzle-kit migrate",
+		"push": "drizzle-kit push",
+		"generate": "drizzle-kit generate"
 	},
 	"repository": {
 		"type": "git",
@@ -31,7 +34,7 @@
 		"drizzle-zod": "^0.6.1",
 		"hono": "^4.6.16",
 		"pg": "^8.13.1",
-		"pino": "^9.6.0", 
+		"pino": "^9.6.0",
 		"ts-node": "^10.9.2",
 		"uuid": "^11.0.5",
 		"zod": "^3.24.1"
